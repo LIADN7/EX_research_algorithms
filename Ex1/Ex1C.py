@@ -18,8 +18,10 @@ def find_root(y, x1, x2):
     x = Symbol('x')
     temp = y(x).diff(x)
     yprime = lambda x: eval(str(temp))
-    return "%.3f"%find_root_rec(y, yprime, x1)
-
+    res = find_root_rec(y, yprime, x1)
+    if(res>x2 or res<x1):
+        return "%.3f"%find_root_rec(y, yprime, x2)
+    return "%.3f"%res
 
 def find_root_rec(y, yprime, x0):
     if(yprime(x0)==0):
@@ -41,19 +43,24 @@ if __name__ == "__main__":
     print("__________")
 
     y1=lambda x: x**2-4
-    print("f(x) = x**2-4")
+    print("f(x) = x**2-4 | sqrt is [1,3]")
     print(find_root(y1 , 1, 3))
     print()
 
-    print("f(x) = x**2+8*x+16")
+    print("f(x) = x**2+8*x+16 | sqrt is [-10,3]")
     y1=lambda x: x**2+8*x+16
     print(find_root(y1 , -10, 3))    
     print()
 
     #check if divade by 0 (f'(-1)=0)
     y1=lambda x: x**2+2*x-3
-    print("f(x) = x**2+2*x-3")
+    print("f(x) = x**2+2*x-3 | sqrt is [-1,2]")
     print(find_root(y1 , -1, 2))  
     print()
     print()
 
+    y1=lambda x: x**2+15*x+50
+    print("f(x) = x**2+15*x+50 | sqrt is [-6,-1]")
+    print(find_root(y1 , -6, -1))  
+    print()
+    print()
