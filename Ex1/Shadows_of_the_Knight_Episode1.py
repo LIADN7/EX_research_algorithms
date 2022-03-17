@@ -23,22 +23,22 @@ while True:
     # To debug: print("Debug messages...", file=sys.stderr, flush=True)
     if(bomb_dir=="U"):
         ey = y0 - 1
-    if(bomb_dir=="UR"):
+    elif(bomb_dir=="UR"):
         sx = x0 + 1
         ey = y0 - 1
-    if(bomb_dir=="R"):
+    elif(bomb_dir=="R"):
         sx = x0 + 1
-    if(bomb_dir=="DR"):
+    elif(bomb_dir=="DR"):
         sx = x0 + 1
         sy = y0 + 1
-    if(bomb_dir=="D"):
+    elif(bomb_dir=="D"):
         sy = y0 + 1
-    if(bomb_dir=="DL"):
+    elif(bomb_dir=="DL"):
         ex = x0 - 1
         sy = y0 + 1
-    if(bomb_dir=="L"):
+    elif(bomb_dir=="L"):
         ex = x0 - 1
-    if(bomb_dir=="UL"):
+    elif(bomb_dir=="UL"):
         ex = x0 - 1
         ey = y0 - 1
     if(sx<=ex):
