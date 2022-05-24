@@ -9,12 +9,12 @@ from demo_shapley import demo_shapley
 #-------------------------------------
 
 if __name__ == "__main__":
+    # spreadsheet = account.open_by_key("a0493999e0f47535a3e4eeecd478e934184ab2f3") # same as above, but safer (unique)
 
     spreadsheet = account.open("LiadSheet") # open by sheet name
     sheet1 = spreadsheet.get_worksheet(0) #get the first sheet
     sheet1.clear() # clear the sheet
     # Open spreadsheet by key:
-    # spreadsheet = account.open_by_key("a0493999e0f47535a3e4eeecd478e934184ab2f3") # same as above, but safer (unique)
     
     shap = demo_shapley()
     abc = {"": 0,"a": 100,"b": 150,"c": 250,"ab": 200,"ac": 250,"bc": 300,"abc": 370}
