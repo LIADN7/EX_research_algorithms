@@ -1,2 +1,1 @@
-*.json
-!Ex9/*.json
+/Ex9/*.json
