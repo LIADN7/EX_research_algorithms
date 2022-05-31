@@ -12,17 +12,17 @@
   
   ### שאלה 1
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex9/img/Q1.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex09/img/Q1.png)
   
   ### שאלה 2
   ### print
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex9/img/Q2.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex09/img/Q2.png)
   
   ### input
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex9/img/sheet1_input.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex09/img/sheet1_input.png)
   
   ### output
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex9/img/sheet2_output.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex09/img/sheet2_output.png)
 
   
 </div>
