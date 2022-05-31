@@ -14,19 +14,19 @@
   
   ### שאלה 1
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex1/img/A.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex01/img/A.png)
   
   ### שאלה 2
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex1/img/B.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex01/img/B.png)
   
   ### שאלה 3
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex1/img/C.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex01/img/C.png)
   
   ### שאלה 4
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex1/img/D.jpeg)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex01/img/D.jpeg)
   
   
 </div>
