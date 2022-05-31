@@ -12,25 +12,41 @@ if __name__ == "__main__":
     # spreadsheet = account.open_by_key("a0493999e0f47535a3e4eeecd478e934184ab2f3") # same as above, but safer (unique)
 
     spreadsheet = account.open("LiadSheet") # open by sheet name
-    sheet1 = spreadsheet.get_worksheet(0) #get the first sheet
-    sheet1.clear() # clear the sheet
-    # Open spreadsheet by key:
+    sheet1 = spreadsheet.get_worksheet(0) # get Sheet1 with the values from the user
+    sheet2 = spreadsheet.get_worksheet(1) # set in Sheet2 result
+    sheet2.clear() # clear the sheet
+
     
     shap = demo_shapley()
-    abc = {"": 0,"a": 100,"b": 150,"c": 250,"ab": 200,"ac": 250,"bc": 300,"abc": 370}
+
+    arr = sheet1.get_all_values()
+    abc = {"": 0}
+    agents = []
+    cont=0
+    # build the game from Sheet1
+    for i,j in zip(arr[0],arr[1]):
+        if cont>1:
+            abc[i]=float(j)
+        cont+=1
+    cont=0
+    for i in arr[2]:
+        if (cont>0) and (not i == ""):
+            agents.append(i)
+        cont+=1
+        
+
+
     print("Game:")
     print(abc)
-    agents = ["a","b","c"]
     res = shap.values(abc, agents)
-    
-    sheet1.update("A1", "Shapley values")
-    sheet1.update("B1", "Agent name")
-    sheet1.update("C1", "Agent cost")
+    sheet2.update("A1", "Shapley values")
+    sheet2.update("B1", "Agent name")
+    sheet2.update("C1", "Agent cost")
     k=2
     print("------------")
     print("shapley result:")
     print(res)
     for i,j in res.items():
-        sheet1.update("B"+str(k), str(i))
-        sheet1.update("C"+str(k), str(j))
+        sheet2.update("B"+str(k), str(i))
+        sheet2.update("C"+str(k), str(j))
         k+=1
