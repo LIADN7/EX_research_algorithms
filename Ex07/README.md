@@ -14,18 +14,18 @@
   
   ### שאלה 1
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex7/img/Figure_1.png)
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex7/img/Figure_2.png)
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex7/img/Figure_3.png)
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex7/img/Figure_4.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex07/img/Figure_1.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex07/img/Figure_2.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex07/img/Figure_3.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex07/img/Figure_4.png)
   
   ### שאלה 2
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex7/img/EX2.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex07/img/EX2.png)
   
   ### שאלה 3
   
-  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex7/img/3.png)
+  ![](https://github.com/LIADN7/EX_research_algorithms/blob/main/Ex07/img/3.png)
   
 
   
