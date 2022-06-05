@@ -13,25 +13,13 @@ def res_page():
         "AliceBob":(request.form['ab']), "AliceChen":(request.form['ac']), "BobChen":(request.form['bc']),
          "AliceBobChen": (request.form['abc'])}
     for i,j in abc.items():
-        # print("i=",i,", j=",j)
         if j == "":
             abc[i]=0.0
         else:
             abc[i]=float(j)
     result =shap.values(abc, ["Alice","Bob","Chen"])
-    # print(val)
-
     return render_template('res.html', result=result) # from the "templates" folder
 
 
 if __name__ == '__main__':
-    app.run(debug = True)
-
-    # abc = {"":0,"a":'',"b":'444',"c":'333'}
-    # for i,j in abc.items():
-    #     print("i=",i,", j=",j)
-    #     if j == "":
-    #         abc[i]=0.0
-    #     else:
-    #         abc[i]=float(j)
-    # print(abc)
+    app.run()
